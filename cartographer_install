@@ -51,18 +51,18 @@ $ cmake .. && make && sudo make install
 （5）安装cartographer_ros
 
 初始化工作空间  
-$ mkdir -p cartogra_ros/src  
-$ cd cartogra_ros/src  
+$ mkdir -p catkin_google_ws/src  
+$ cd catkin_google_ws/src  
 $ catkin_init_workspace  
 
 安装cartographer_ros  
-$ cd cartogra_ros/src  
+$ cd catkin_google_ws/src  
 $ git clone https://github.com/googlecartographer/cartographer_ros.git  
 $ cd ..  
 $ catkin_make
 
 添加工作空间  
-$ echo "source ~/cartogra_ros/devel/setup.bash" >> ~/.bashrc  
+$ echo "source ~/catkin_google_ws/devel/setup.bash" >> ~/.bashrc  
 $ source ~/.bashrc  
 
 执行catkin_init_workspace过程中很有可能会出现以下错误提示：  
