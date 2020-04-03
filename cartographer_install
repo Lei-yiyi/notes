@@ -6,7 +6,6 @@ ubuntu版本：16.04
 ROS版本：kinetic  
 源码编译过程中会占用大量内存，保证：真实内存+swap > 4G  
 查看方法：$ free -m  
-创建文件夹：cartographer
 
 （1）安装依赖
 
