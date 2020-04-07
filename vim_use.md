@@ -1,8 +1,8 @@
 # vim 使用 
 
-基本上 vi/vim 共分为三种模式，分别是命令模式（Command mode），输入模式（Insert mode）和底线命令模式（Last line mode）
+## 基本上 vi/vim 共分为三种模式，分别是命令模式（Command mode），输入模式（Insert mode）和底线命令模式（Last line mode）
 
-（1）命令模式（Command mode）
+## （1）命令模式（Command mode）
 
 用户刚刚启动 vi/vim，便进入了命令模式。此状态下敲击键盘动作会被Vim识别为命令，而非输入字符。
 
@@ -19,7 +19,7 @@ P 将已复制的数据在光标上一行贴上
 u  复原前一个动作  
 [Ctrl]+r 重做上一个动作
 
-（2）输入模式（Insert mode）
+## （2）输入模式（Insert mode）
 
 在命令模式下按下 i 就进入了输入模式。
 
@@ -34,7 +34,7 @@ Page Up/Page Down，上/下翻页
 Insert，切换光标为输入/替换模式，光标将变成竖线/下划线  
 ESC，退出输入模式，切换到命令模式
 
-（3）底线命令模式（Last line mode）
+## （3）底线命令模式（Last line mode）
 
 在命令模式下按下 : （英文冒号）就进入了底线命令模式。
 
