@@ -1,18 +1,18 @@
 # mrpt 使用
 
-（1）查看 ubuntu 和 ROS 的版本
+## （1）查看 ubuntu 和 ROS 的版本
 
 查看 ubuntu 的版本：$ lsb_release -a  
 查看 ROS 的版本：$ roscore
 
-（2）mrpt相关资源网站
+## （2）mrpt相关资源网站
 
 http://www.mrpt.org/  
 https://github.com/mrpt-ros-pkg/  
 http://wiki.ros.org/mrpt_navigation  
 http://wiki.ros.org/mrpt_slam
 
-（3）http://wiki.ros.org/mrpt_navigation （Build from sources）
+## （3）http://wiki.ros.org/mrpt_navigation （Build from sources）
 
 1. 安装 ROS（ubuntu 版本为 Ubuntu 16.04，ROS 版本为kinetic）  
 
@@ -36,7 +36,7 @@ $ source ~/.bashrc
 6. Demos（http://wiki.ros.org/mrpt_localization）  
 $ roslaunch mrpt_localization demo.launch
 
-（4）catkin_make 报错信息1
+## catkin_make 报错信息1
 
 CMake Error at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
   Could not find a package configuration file provided by "mrpt_bridge" with
@@ -57,11 +57,11 @@ Call Stack (most recent call first):
 See also "/home/pi/mrpt_ws/build/CMakeFiles/CMakeOutput.log".
 See also "/home/pi/mrpt_ws/build/CMakeFiles/CMakeError.log".
 
-（5）catkin_make 报错信息1解决方法
+## catkin_make 报错信息1解决方法
 
 $ sudo apt-get install ros-kinetic-mrpt-bridge
 
-（6）catkin_make 报错信息2
+## catkin_make 报错信息2
 
 CMake Error at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
   Could not find a package configuration file provided by "pose_cov_ops" with
@@ -83,11 +83,11 @@ See also "/home/pi/mrpt_ws/build/CMakeFiles/CMakeOutput.log".
 See also "/home/pi/mrpt_ws/build/CMakeFiles/CMakeError.log".
 Invoking "cmake" failed
 
-（7）catkin_make 报错信息2解决方法
+## catkin_make 报错信息2解决方法
 
 $ sudo apt-get install ros-kinetic-pose-cov-ops
 
-（8）http://wiki.ros.org/mrpt_slam （Build from sources）
+## （4）http://wiki.ros.org/mrpt_slam （Build from sources）
 
 1. 安装 ROS（ubuntu 版本为 Ubuntu 16.04，ROS 版本为kinetic）  
 
@@ -111,7 +111,7 @@ $ source ~/.bashrc
 6. Demos（http://wiki.ros.org/mrpt_ekf_slam_2d）  
 $ roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch
 
-（9）catkin_make 报错信息3
+## catkin_make 报错信息3
 
 CMake Error at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
   Could not find a package configuration file provided by
@@ -133,16 +133,16 @@ See also "/home/pi/mrptSLAM_ws/build/CMakeFiles/CMakeOutput.log".
 See also "/home/pi/mrptSLAM_ws/build/CMakeFiles/CMakeError.log".
 Invoking "cmake" failed
 
-（10）catkin_make 报错信息3解决方法
+## catkin_make 报错信息3解决方法
 
 $ sudo apt-get install ros-kinetic-multimaster-msgs-fkie
 
-（11）roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch 报错信息1
+## roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch 报错信息1
 
 ERROR: unable to contact ROS master at [http://:11311]
 The traceback for the exception was written to the log file
 
-（12）roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch 报错信息1解决方法
+## roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch 报错信息1解决方法
 
 打开一个终端，打开 roscore：$ roscore  
 再打开一个终端，继续运行Demos：$ roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch
