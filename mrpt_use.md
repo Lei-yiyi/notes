@@ -146,5 +146,6 @@ http://wiki.ros.org/mrpt_slam
 
     # 打开一个终端，打开 roscore
     $ roscore  
+    
     # 再打开一个终端，继续运行Demos
     $ roslaunch mrpt_ekf_slam_2d ekf_slam_2d.launch
