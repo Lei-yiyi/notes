@@ -35,7 +35,7 @@ ubuntu16.04的protobuf的版本默认是2.x ，但是cartographer要求是3.0以
 
 执行./autogen.sh过程中很有可能会出现以下错误提示：  
 ./autogen.sh: autoreconf: not found  
-解决办法：  
+解决办法：
     $ sudo apt-get install autoconf  
     $ sudo apt-get install automake  
     $ sudo apt-get install libtool  
@@ -48,7 +48,7 @@ ubuntu16.04的protobuf的版本默认是2.x ，但是cartographer要求是3.0以
 
 使用官方网址：https://github.com/googlecartographer/cartographer.git ，避免后面遇到文件缺失问题。
 
-## （5）安装cartographer_ros
+## （5）安装 cartographer_ros
 
     # 初始化工作空间  
     $ mkdir -p catkin_google_ws/src  
@@ -68,5 +68,5 @@ ubuntu16.04的protobuf的版本默认是2.x ，但是cartographer要求是3.0以
 执行catkin_init_workspace过程中很有可能会出现以下错误提示：  
 The program 'catkin_init_workspace' is currently not installed. You can install it by typing:  
 sudo apt install catkin  
-解决办法：  
-$ source /opt/ros/kinetic/setup.bash
+解决办法：
+    $ source /opt/ros/kinetic/setup.bash
