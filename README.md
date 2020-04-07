@@ -1,6 +1,3 @@
-# notes-常用笔记
-
-
 
 README.md	Update README.md	4 days ago
 cartographer_install.md	Update cartographer_install.md	6 minutes ago
@@ -11,7 +8,7 @@ vim_use.md
 # 目录
 
 
-- [LeetCode 题解](#leetcode-%E9%A2%98%E8%A7%A3)
+- LeetCode 题解
   - [链表](#%E9%93%BE%E8%A1%A8)
   - [栈-队列](#%E6%A0%88-%E9%98%9F%E5%88%97)
   - [堆](#%E5%A0%86)
