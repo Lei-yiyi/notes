@@ -65,7 +65,7 @@
     
     # 查看本地和远程的所有分支
     $ git branch -a
-　　
+    
     # 查看远程所有分支
     $ git branch -r
     
