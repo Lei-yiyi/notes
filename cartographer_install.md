@@ -46,7 +46,7 @@ $ git clone https://github.com/googlecartographer/cartographer.git
 $ cd cartographer && mkdir build && cd build  
 $ cmake .. && make && sudo make install  
 
-使用官方网址：https://github.com/googlecartographer/cartographer.git，避免后面遇到文件缺失问题。
+使用官方网址：https://github.com/googlecartographer/cartographer.git ，避免后面遇到文件缺失问题。
 
 ## （5）安装cartographer_ros
 
