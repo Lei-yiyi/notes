@@ -4,7 +4,7 @@
 
 ## （2）建立本地仓库 cd 到你的本地项目根目录下，执行 git 命令
 
-  $ cd 到你的项目目录下
+    $ cd 到你的项目目录下
     $ git init
     
     # 取消对文件夹 git init 初始化操作并查看    
@@ -44,6 +44,7 @@
     hint: to the same ref. You may want to first integrate the remote changes
     hint: (e.g., 'git pull ...') before pushing again.
     hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+    
     先将本地和远程的文件合并后，再上传本地的新文件
     $ git pull origin master
     $ git push -u origin master
