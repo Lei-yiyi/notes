@@ -8,19 +8,18 @@
     
 ## 硬件 
 
-Kobuki底盘
+Kobuki底盘  
 激光雷达EAI S2
 
 ## 软件
-主机
-ubuntu 16.04
+主机端：  
+ubuntu 16.04  
 ROS kinetic
 
-从机
+从机端：  
 
-
-主从端SLAM
-Gmapping	https://github.com/ros-perception/openslam_gmapping.git
-hector_slam	https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
-cartographer	https://github.com/googlecartographer/cartographer.git
-slam_karto	https://github.com/ros-perception/slam_karto.git
+主从端SLAM：  
+Gmapping：https://github.com/ros-perception/openslam_gmapping.git  
+hector_slam：https://github.com/tu-darmstadt-ros-pkg/hector_slam.git  
+cartographer：https://github.com/googlecartographer/cartographer.git  
+slam_karto：https://github.com/ros-perception/slam_karto.git  
