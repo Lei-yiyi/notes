@@ -16,13 +16,11 @@
 ## 安装报错
 
 若安装完成，图标却没有出现，说明安装错误，报错为
-
     (process:6655): dconf-WARNING **: failed to commit changes to dconf: Cannot。。。
 
 ## 安装报错解决方案
 
 需要重置unity桌面。打开终端（使用快捷键 Ctrl + Alt + F1）进入终端
-
     # 重置Compiz
     $ dconf reset -f /org/compiz/
     # 重启Unity
