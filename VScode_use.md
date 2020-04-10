@@ -1,4 +1,4 @@
-# Ubuntu 16.04 安装 VScode
+# Ubuntu16.04 下安装配置 VScode 以及 VS 的使用总结
 
 ## 通过官方 PPA 安装 Ubuntu make
 
