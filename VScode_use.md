@@ -21,10 +21,8 @@ VScode 不像 codeblock 以及其他编译器那样，有自带的 gcc,g++ 环�
 
     # 用一个txt文本，写一个Hello word 的纯c语言代码，保存退出，改名为 hello.c 文件，然后打开终端cd到该.c文件的位置，然后用以下命令编译、运行，如果有Hello word输出则有gcc编译器
     $ gcc -o hello hello.c
-    $./ hello
+    $./hello
 
     # 同理，用一个txt文本，写一个Hello word 的纯c++语言代码，保存退出，改名为 hello.cpp文件，然后打开终端cd到该.cpp文件的位置，然后用以下命令编译、运行，如果有Hello word输出则有g++编译器：
     $ gcc -o hello hello.cpp
-    $ ./ hello
-
-我的电脑上的问题是g++编译器的确有，不过不能用，需要卸载重新下载，重新安装后终于可以用了。
+    $ ./hello
