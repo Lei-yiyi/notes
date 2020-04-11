@@ -107,12 +107,5 @@ VScode 不像 codeblock 以及其他编译器那样，有自带的 gcc,g++ 环�
     ——> 点击左侧的Run按钮  
     ——> build成功  
     ——> 点击左上角的RUN开始调试（F5是调试也是运行，有断点的时候就是调试，没有断点的时候就是运行）
+    
     Could not find the task 'g++ build active file'.
-
-# 常用快捷键
-
-    ctrl+shift+p：调出命令行
-    F5：调试、运行
-    Ctrl+shift+B：编译
-    F10：单步运行
-    F11：进入函数内部
