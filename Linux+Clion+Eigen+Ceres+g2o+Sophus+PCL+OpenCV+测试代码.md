@@ -93,4 +93,9 @@ CMakeLists.txt
 
 测试
 
-    # main
+    # mkdir build
+    # cd build
+    # cmake ..
+    # make
+    
+    # ./eigen_test
