@@ -1,4 +1,4 @@
-# SLAM环境配置：Linux+Clion+Eigen+Ceres+g2o+Sophus+PCL+OpenCV+测试代码
+# SLAM环境配置：ubuntu16.04+Clion+Eigen+Ceres+g2o+Sophus+PCL+OpenCV+测试代码
 
 
 # ubuntu16.04+eigen3 安装
@@ -99,3 +99,6 @@ CMakeLists.txt
     # make
     
     # ./eigen_test
+
+# ubuntu16.04+ceres 安装
+ceres安装完成之后，在/usr/local/include/ceres下可找到Ceres头文件，在/usr/local/lib下可找到libceres.a库文件。
